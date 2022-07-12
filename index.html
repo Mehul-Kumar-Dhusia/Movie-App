@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SWC Project</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <nav class="bg-white shadow p-4 flex justify-between">
+      <div class="flex items-center sm:border-r space-x-3 sm:w-60 sm:py-2">
+        <img src="images/logo.svg" alt="logo" />
+        <h1 class="font-bold">Movies</h1>
+      </div>
+      <form id="form" class="border-l mr-5 flex space-x-3 pl-4 items-center">
+        <img class="w-5" src="images/search.svg" alt="search" />
+        <input id="input-bar" class="focus:outline-none" type="text" placeholder="Quick Search" />
+      </form>
+    </nav>
+
+    <main class="flex bg-[#FAFAFA]">
+
+      <aside
+        class="w-44 sm:w-64 border bg-slate-100 flex flex-col lg:justify-start"
+      >
+        <div>
+          <div class="bg-white sm:w-52 py-3 pl-4 ms:pl-2 mt-6 sm:ml-12">
+            Search Results
+          </div>
+          <div class="sm:w-52 py-3 pl-4 ms:pl-2 hover:bg-white sm:ml-12">All Team</div>
+          <div class="sm:w-52 py-3 pl-4 ms:pl-2 hover:bg-white sm:ml-12">Core</div>
+          <div class="sm:w-52 py-3 pl-4 ms:pl-2 hover:bg-white sm:ml-12">Developers</div>
+          <div class="sm:w-52 py-3 pl-4 ms:pl-2 hover:bg-white sm:ml-12">Designers</div>
+          <div class="sm:w-52 py-3 pl-4 ms:pl-2 hover:bg-white sm:ml-12">Mentors</div>
+        </div>
+        <button
+          class="bg-black text-white rounded-md py-2 inline-block sm:ml-14 mt-4 ml-3 w-32 md:w-40 md:ml-10 hover:bg-opacity-80"
+        >
+          + Contact
+        </button>
+      </aside>
+      
+      <section id="section" class="border-b-gray-400 grid grid-cols-1 gap-7 p-10 m-auto md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
+      </section>
+    </main>
+    <script src="/index.js" type="module"></script>
+  </body>
+</html>
