@@ -4,24 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SWC Project</title>
+    <title>YourMovie.com</title>
     <link rel="stylesheet" href="/style.css">
   </head>
-  <body>
-    <nav class="bg-white shadow p-4 flex justify-between">
-      <div class="flex items-center sm:border-r space-x-3 sm:w-60 sm:py-2">
+  <body id="body">
+    <nav id="nav" class="bg-white shadow sm:p-4 flex justify-between py-4 px-2 pr-0">
+      <div class="mr-10 sm:mr-0 flex items-center sm:border-r space-x-3 sm:w-60 sm:py-2">
         <img src="images/logo.svg" alt="logo" />
-        <h1 class="font-bold">Movies</h1>
+        <h1 class="font-bold text-lg">YourMovies</h1>
       </div>
-      <form id="form" class="border-l mr-5 flex space-x-3 pl-4 items-center">
-        <img class="w-5" src="images/search.svg" alt="search" />
-        <input id="input-bar" class="focus:outline-none" type="text" placeholder="Quick Search" />
-      </form>
+       
+        <form id="form" class="
+         ml-4 md:border-l space-x-2 md:mr-5 flex md :space-x-3 md:pl-4 items-center">
+          <img class="md:w-5" src="images/search.svg" alt="search" />
+          <input id="input-bar" class=" w-36 focus:outline-none" type="text" placeholder="Quick Search" />
+        </form>
     </nav>
 
     <main class="flex bg-[#FAFAFA]">
-
-      <aside
+      <!-- <aside
         class="w-44 sm:w-64 border bg-slate-100 flex flex-col lg:justify-start"
       >
         <div>
@@ -39,9 +40,9 @@
         >
           + Contact
         </button>
-      </aside>
+      </aside> -->
       
-      <section id="section" class="border-b-gray-400 grid grid-cols-1 gap-7 p-10 m-auto md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
+      <section id="section" class="grid grid-cols-1 gap-6 p-6 m-auto md:grid-cols-2 lg:grid-cols-3 lg:p-14 lg:gap-14">
       </section>
     </main>
     <script src="/index.js" type="module"></script>

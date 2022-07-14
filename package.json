@@ -11,8 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start" : "vite",
-    "build" : "vite build"
+    "start": "vite",
+    "build": "vite build"
   },
   "author": "",
   "license": "ISC"
